@@ -1,3 +1,8 @@
+# Installs SizeUp into /Applications
+#
+# Usage:
+#
+#     include sizeup
 class sizeup {
   package { 'SizeUp':
     source   => 'http://www.irradiatedsoftware.com/download/SizeUp.zip',
